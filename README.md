@@ -2,10 +2,10 @@
 RiskySim
 ========
 
-A web-based RISC-V simulator. This project is a simulator for the RISC-V instruction set
-architecture. It is intended for educational use. It provides a visualization of the processor
-registers and allows basic assembly language-level debugging operations such as single stepping,
-setting breakpoints, etc.
+This project is a simulator for the RISC-V instruction set architecture running as a web
+application. It is intended primarily for educational use. It provides a visualization of the
+processor registers and allows basic assembly language-level debugging operations such as single
+stepping, setting breakpoints, etc.
 
 This project is in its early stages and is not currently usable. Check back later for
 developments!
@@ -28,7 +28,7 @@ errors appear. You can check the version of `wasm-pack` with the command:
 $ wasm-pack --version
 ```
 
-The Rust core needs to be build separately as follows:
+The Rust core needs to be built separately as follows:
 
 ```bash
 $ cd rust-core
@@ -41,7 +41,7 @@ Next, in the root of the repository install all the Node.js dependencies as foll
 $ npm install
 ```
 
-You can run the development web server to test the application by doing:
+You can build the front end and run the development web server to test the application by doing:
 
 ```bash
 $ npm run dev
